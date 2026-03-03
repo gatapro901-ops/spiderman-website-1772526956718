@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply bg-gray-800;
+  @apply py-4;
+  @apply flex;
+  @apply justify-between;
+  @apply items-center;
+}
+
+.hero {
+  @apply h-screen;
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+}
+
+.spiderman-image {
+  @apply w-1/2;
+  @apply h-1/2;
+  @apply object-cover;
+  @apply rounded-md;
+}
