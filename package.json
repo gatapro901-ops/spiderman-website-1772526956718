@@ -1,0 +1,1 @@
+{"name": "spiderman-website", "version": "1.0.0", "scripts": {"start": "npx tailwindcss -i ./styles.css -o ./styles.css"}, "dependencies": {"tailwindcss": "^3.0.24"}}
